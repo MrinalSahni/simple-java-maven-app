@@ -1,0 +1,16 @@
+name: Java exp1
+
+on:
+  push:
+    branches: [ "master" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+      - uses: actions/checkout@v2
+      
+   
+   
+
+
